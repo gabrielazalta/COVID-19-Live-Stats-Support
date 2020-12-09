@@ -20,3 +20,5 @@ https://Diza41a.github.io/Covid-Live-Stats/
 
 ## Contribution
 Made with ❤️ by Jessica Coneff, Davyd Zakorchennyi, and Gabriela Zalta
+
+
