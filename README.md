@@ -20,6 +20,7 @@
 ## API
 * [Geo Map API] https://maps.googleapis.com/maps/api/geocode/json?address=query&key=AIzaSyDlvs56CLbiwW-Ty2IjXHoHcReR6nJNUAg
 * [COVID Live Stats API] https://covidtracking.com/data/api
+* [SVG Map API] https://websitebeaver.com/how-to-make-an-interactive-and-responsive-svg-map-of-us-states-capitals
 
 ## Website
 https://gabrielazalta.github.io/COVID-19-Live-Stats-Support/

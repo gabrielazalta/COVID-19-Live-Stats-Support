@@ -116,7 +116,7 @@ function endQuiz(event) {
         resultBody.className = "tile is-child p-5 m-6";
 
         var resultText = document.createElement("h3");
-        resultText.textContent = "It seems that you are okay! To stay informed on the most up-to-date COVID-19 stats, or to browse COVID-19 essentials, please visit one of the links below:";
+        resultText.textContent = "It seems that you are okay! To stay informed on the most up-to-date COVID-19 stats, please visit the link below:";
         resultText.className = "has-text-centered is-size-4 has-text-weight-medium mb-3";
 
         //live stats button
