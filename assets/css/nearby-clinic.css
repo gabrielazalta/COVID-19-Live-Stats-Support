@@ -1,8 +1,8 @@
-#body{
+#body {
     margin-bottom: 0;
 }
 
-.clinic-map-info-wrapper{
+.clinic-map-info-wrapper {
     min-height: 550px;
     margin: 2vw 5rem;
     border-radius: 3%;
@@ -13,8 +13,11 @@
     transform: rotate(2deg);
 }
 
-.clinic-map-info-wrapper h2,.clinic-map-info-wrapper p,.clinic-map-info-wrapper ul,
-.clinic-map-info-wrapper li,.clinic-map-info-wrapper a{
+.clinic-map-info-wrapper h2,
+.clinic-map-info-wrapper p,
+.clinic-map-info-wrapper ul,
+.clinic-map-info-wrapper li,
+.clinic-map-info-wrapper a {
     font-family: 'Schoolbell', cursive;
 }
 
@@ -30,7 +33,8 @@
     box-shadow: none;
     border-radius: 2%;
     border-top-left-radius: 12%;
-    border-bottom-left-radius: 10%;;
+    border-bottom-left-radius: 10%;
+    ;
 }
 
 #localMap {
@@ -41,48 +45,50 @@
     margin: 3vw;
 }
 
-#clinicInfo{
+#clinicInfo {
     overflow-y: scroll;
     display: inline;
     background-color: rgba(255, 255, 255, 0.5);
     box-shadow: none;
 }
 
-#clinicInfo hr{
+#clinicInfo hr {
     border: none;
     height: 1px;
     /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
+    color: #333;
+    /* old IE */
+    background-color: #333;
+    /* Modern Browsers */
     width: 90%;
     border-radius: 5%;
 }
 
-#clinicInfo h2{
+#clinicInfo h2 {
     font-weight: bold;
     font-size: 1.7rem;
     display: inline;
     vertical-align: middle;
 }
 
-#clinicInfo img{
+#clinicInfo img {
     height: 1.7rem;
     vertical-align: middle;
     padding: 0 3%;
 }
 
-#search-input-wrapper{
+#search-input-wrapper {
     background-color: white;
     margin-bottom: 1vw;
     padding: 0 1vw 1vw 1vw;
 }
 
-#search-box-city{
+#search-box-city {
     width: 80%;
     display: inline;
 }
 
-#search-button{
+#search-button {
     text-align: middle;
     color: white;
     background-color: rgb(43, 121, 238);
@@ -92,16 +98,17 @@
     border-radius: 50%;
 }
 
-#search-button:hover{
+#search-button:hover {
     background-color: rgb(27, 79, 158);
 
 }
 
-#clinic-rating{
+#clinic-rating {
     display: flex;
     font-size: 1rem;
     color: gold;
 }
+
 .footer {
     background-color: #68b1e846;
 

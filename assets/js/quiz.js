@@ -113,7 +113,7 @@ function endQuiz(event) {
     if (health >= 0) {
         //display if the user is not suspected to have COVID-19
         var resultBody = document.createElement("div");
-        resultBody.className = "tile is-child p-5 m-6";
+        resultBody.className = "tile is-child resultContainer p-5 m-6";
 
         var resultText = document.createElement("h3");
         resultText.textContent = "It seems that you are okay! To stay informed on the most up-to-date COVID-19 stats, please visit the link below:";
@@ -136,7 +136,7 @@ function endQuiz(event) {
     } else {
         //display if the user is suspected of having COVID-19
         var resultBody = document.createElement("div");
-        resultBody.className = "tile is-child p-5 m-6";
+        resultBody.className = "tile is-child resultContainer p-5 m-6";
 
         var resultText = document.createElement("h3");
         resultText.textContent = "You may be eligible for COVID-19 testing. Please click the link below to view the clinics near you. Contact your health care provider for more information.";
